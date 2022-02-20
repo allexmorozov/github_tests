@@ -17,6 +17,6 @@ public class CheckJUnit5Test extends TestBase {
                 .openWiki()                         // Перейти в раздел Wiki
                 .setPageName(pageName)              // Убедитесь, что в списке страниц (Pages) есть страница SoftAssertions
                 .openSoftAssertions()               // Откройте страницу SoftAssertion
-                .checkJUnit5(checkValue); // Проверьте что внутри есть пример кода для JUnit5
+                .checkJUnit5(checkValue);           // Проверьте что внутри есть пример кода для JUnit5
     }
 }
